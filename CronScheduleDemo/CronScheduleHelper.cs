@@ -213,7 +213,7 @@ namespace CronScheduleDemo
         /// <param name="startTime"></param>
         /// <param name="endTime"></param>
         /// <returns></returns>
-        public static string SetWeekCycle(ScheduleWeek startTime, ScheduleWeek endTime)
+        public static string SetWeekCycle(ScheduleDayOfWeek startTime, ScheduleDayOfWeek endTime)
         {
             return SetWeekCycle(GetInstant, (int)startTime, (int)endTime).Result;
         }
